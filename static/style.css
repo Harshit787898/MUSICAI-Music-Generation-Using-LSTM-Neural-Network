@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(24, 7, 51);
+    color: white;
+}
+
+h1{
+    font-size: 65px;
+}
+
+
+.cont{
+    display: flex;
+    border-radius: 10px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    height: 400px;
+    width: 650px;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+    height: 50px;
+    font-size: 50px;
+    margin-top: 20px;
+    color: white;
+}
+
+.format{
+    height: 40px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+}
+
+select{
+    margin-left:20px;
+    height: 25px;
+    width: 250px;
+    border: 2px solid white;
+    background-color: cyan;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 15px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    border: 2px solid white;
+    background-color: cyan;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+input{
+    height: 40px;
+    width: 450px;
+    margin-left: 10px;
+    border: 2px solid white;
+    background-color: cyan;
+    color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: solid white 2px;
+    font-size: 20px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+button:active{
+    transform: translateY(4px);
+}

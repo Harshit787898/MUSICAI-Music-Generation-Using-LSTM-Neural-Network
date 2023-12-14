@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melody Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Melody Generator</h1>
+    <div class="cont">
+        <div class="input">
+        <label for="seed">Seed:</label>
+        <input type="text" name="seed" id="seed" placeholder="Enter seed...">
+        </div>
+        <div class="format">
+        <label for="format">Format:</label>
+        <select id="format">
+            <option value="midi">MIDI</option>
+        </select>
+        </div>
+        <button onclick="generateMelody()">Generate Melody</button>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</body>
+</html>
