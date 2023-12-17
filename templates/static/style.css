@@ -5,17 +5,37 @@
 body{
     height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(24, 7, 51);
+    color: white;
+    overflow: hidden;
+}
+
+.body{
+    display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     background-color: rgb(24, 7, 51);
     color: white;
+    margin-bottom: 125px;
 }
-
 h1{
     font-size: 65px;
 }
 
+.image1{
+    height: 550px;
+    width: 550px;
+    margin-right: 80px;
+    border-radius: 10px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
 
 .cont{
     display: flex;
@@ -30,6 +50,7 @@ h1{
     flex-direction: column;
     padding: 10px;
     margin-top: 30px;
+    background-color: rgb(231, 216, 162);
 }
 
 .input{
@@ -41,7 +62,7 @@ h1{
     height: 50px;
     font-size: 50px;
     margin-top: 20px;
-    color: white;
+    color: black;
 }
 
 .format{
@@ -52,7 +73,7 @@ h1{
     align-items: center;
     justify-content:center;
     margin-top: 50px;
-    color: white;
+    color: black;
     font-size: 40px;
 }
 
@@ -91,7 +112,6 @@ input{
     height: 40px;
     width: 450px;
     margin-left: 10px;
-    border: 2px solid white;
     background-color: cyan;
     color: black;
     border-radius: 10px;

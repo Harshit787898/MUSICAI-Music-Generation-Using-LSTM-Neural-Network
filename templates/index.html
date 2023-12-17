@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+    <img class="image1" src="https://pics.craiyon.com/2023-08-06/deb516cff8a74d9796d0321926518848.webp" alt="">
+    <div class="body">
     <h1>Melody Generator</h1>
     <div class="cont">
         <div class="input">
@@ -20,6 +22,7 @@
         </select>
         </div>
         <button onclick="generateMelody()">Generate Melody</button>
+    </div>
     </div>
     <script src="{{ url_for('static', filename='script.js') }}" defer></script>
 </body>
