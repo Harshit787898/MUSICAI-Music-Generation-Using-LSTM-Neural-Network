@@ -1,1 +1,1 @@
-MUSICAI
+Music generation using LSTM
