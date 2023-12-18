@@ -1,1 +1,1 @@
-Music generation using LSTM
+Music generation using LSTM neural network
