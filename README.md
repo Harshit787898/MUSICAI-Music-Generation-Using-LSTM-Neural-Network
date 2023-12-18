@@ -1,4 +1,4 @@
-# Music generation using LSTM neural network
+# MUSIC GENERATION USING LSTM NEURAL NETWORKS
 This project explores the exciting field of melody generation through the innovative application of Long Short-Term Memory (LSTM) neural networks. Emphasizing folk songs, the project aims to demonstrate the LSTM model's capacity to craft expressive melodies, showcasing the intricate interplay between technology and artistic expression in the realm of AI-assisted music composition.
 
 ![image](https://github.com/Harshit787898/MUSICAI/assets/119559175/09f6dc8d-86a4-4735-b91c-255c492e6d57)
